@@ -1,7 +1,7 @@
 import discord
 from googletrans import Translator
 
-TOKEN = 'ODAzNjUzNTU1MDQ3MTA0NTEy.YBA6sg.0GGB2kz4Isy8SgQ4rRJBUCOD6eM'
+TOKEN = 'トークンは伏せます'
 
 client = discord.Client()
 translator = Translator()
