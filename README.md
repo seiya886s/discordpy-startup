@@ -1,36 +1,34 @@
-# discordpy-startup
+# TranslateBot
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+Bot made in NodeJS that translates texts using the Google Translate Api.
 
-- Herokuでdiscord.pyを始めるテンプレートです。
-- Use Template からご利用ください。
-- 使い方はこちら： [Discord Bot 最速チュートリアル【Python&Heroku&GitHub】 - Qiita](https://qiita.com/1ntegrale9/items/aa4b373e8895273875a8)
+![Screen of the bot](https://media.discordapp.net/attachments/374301369273679873/438426370708865044/TranslateBotScreen.PNG)
 
-## 各種ファイル情報
+### Installation
+Use `npm install` to install the dependencies.
 
-### discordbot.py
-PythonによるDiscordBotのアプリケーションファイルです。
+Head over to [the discord developers page](https://discordapp.com/developers/applications/me) to register your bot and get a token.
 
-### requirements.txt
-使用しているPythonのライブラリ情報の設定ファイルです。
+### Use on discord
+You can type `>help` to get the available languages you can translate to.
 
-### Procfile
-Herokuでのプロセス実行コマンドの設定ファイルです。
+To translate, you can use the prefix followed by the ISO 639-1 code
 
-### runtime.txt
-Herokuでの実行環境の設定ファイルです。
+```>FR "Text to translate in french"```
 
-### app.json
-Herokuデプロイボタンの設定ファイルです。
+or use the flag of the language
 
-### .github/workflows/flake8.yaml
-GitHub Actions による自動構文チェックの設定ファイルです。
+:fr:` "Text to translate in french"`
 
-### .gitignore
-Git管理が不要なファイル/ディレクトリの設定ファイルです。
+### Supported languages
+Languages you can translate to :
+* French (fr)
+* English (en)
+* German (de)
+* Japanese (jp)
+* Spanish (es)
+* Italian (it)
+* Russian (ru)
+* Arabic (ar)
 
-### LICENSE
-このリポジトリのコードの権利情報です。MITライセンスの範囲でご自由にご利用ください。
-
-### README.md
-このドキュメントです。
+More languages will be added soon.
